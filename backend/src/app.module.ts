@@ -8,13 +8,9 @@ import { AsientoModule } from './Asiento/asiento.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'localhost',
-      port: 5432,
-      username: 'postgres',
-      password: 'admin', 
-      database: 'finanza', 
+      url: process.env.DATABASE_URL, // Usa la variable de entorno de Render
       autoLoadEntities: true,
-      synchronize: true, // Solo para desarrollo, no usar en producción
+      synchronize: false, // Solo para desarrollo, no usar en producción
     }),
     AsientoModule,
   ],
