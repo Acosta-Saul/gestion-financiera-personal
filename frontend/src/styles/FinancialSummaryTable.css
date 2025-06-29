@@ -1,0 +1,67 @@
+.financial-summary-table {
+  margin-top: 2rem;
+  color:black
+}
+
+.financial-summary-table table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 1.2rem;
+}
+
+.financial-summary-table th,
+.financial-summary-table td {
+  padding: 0.7rem 1.2rem;
+  text-align: left;
+}
+
+.financial-summary-table thead th {
+  border-bottom: 4px solid #ff6b3d;
+  font-size: 1.3rem;
+}
+
+.financial-summary-table tbody tr:not(:last-child) td {
+  border-bottom: 2px solid #ffb08a33;
+}
+
+.financial-summary-table tfoot td {
+  border-top: 4px solid #ff6b3d;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.edit-btn {
+  background: #3d3dff;
+  color: #fff;
+  border: none;
+  width: 120px;
+  border-radius: 0.7rem;
+  padding: 0.5rem 1.5rem;
+  font-weight: bold;
+  margin-right: 0.7rem;
+  box-shadow: 0 2px 6px #ececec;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.edit-btn:hover {
+  background: #2323b3;
+}
+
+.delete-btn {
+  background: #ff2323;
+  color: #fff;
+  border: none;
+  width: 120px;
+  border-radius: 0.7rem;
+  padding: 0.5rem 1.5rem;
+  font-weight: bold;
+  box-shadow: 0 2px 6px #ececec;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.delete-btn:hover {
+  background: #b30000;
+}

@@ -1,0 +1,61 @@
+.info-section {
+  padding: 60px;
+  /* padding: 3rem 2rem 2rem 2rem; */
+  background: #fff;
+  color:black;
+  background-image: url("../assets/fondo2.svg");
+  min-height: 500px;
+}
+
+.info-section h2 {
+  margin-top: 30px;
+  color: #f45b5b;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+
+.info-section__content {
+  font-size: 30px;
+  max-width: 1250px;
+  /* margin: 0 auto; */
+}
+
+.info-section__content h3 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.info-section__content p {
+  font-size: 1.1rem;
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+.info-section__content .bold {
+  font-weight: 700;
+}
+
+.info-section__cta {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+@media (max-width: 600px) {
+  .info-section__content h3 {
+  font-size: 35px;
+}
+}
+
+@media (max-width: 458px) {
+.info-section {
+padding: 20px;
+}
+
+  .info-section__content h3 {
+  font-size: 24px;
+}
+}
