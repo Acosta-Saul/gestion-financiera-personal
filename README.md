@@ -3,6 +3,9 @@
 ## 📜 Descripción
 La aplicación de gestión de finanzas personales permite a los usuarios llevar un mejor control de su dinero mediante una interfaz amigable e intuitiva. La plataforma está diseñada para facilitar el registro y seguimiento de entradas y salidas de dinero, brindando una visión clara de las finanzas personales para una mejor toma de decisiones económicas.
 
+## 📝 Definición del Problema
+El manejo inadecuado de las finanzas personales es común, especialmente entre los jóvenes, quienes a menudo no conocen cuánto ganan ni cuánto gastan al mes. Esta falta de control sobre sus finanzas genera problemas como la imposibilidad de ahorrar o invertir. La aplicación busca centralizar un histórico de los movimientos financieros para proporcionar claridad y fomentar un mejor manejo del dinero.
+
 ### 🎯 Público Objetivo
 Esta aplicación está dirigida a personas entre 20 y 26 años que buscan mejorar el control de sus finanzas personales. La idea es ayudar a los jóvenes a visualizar, administrar y analizar su flujo de dinero para poder ahorrar o invertir de manera más eficiente.
 
@@ -21,9 +24,6 @@ Esta aplicación está dirigida a personas entre 20 y 26 años que buscan mejora
 - **Modificar Asientos**: Facilita la modificación de registros existentes.
 - **Eliminar Asientos**: Permite eliminar registros erróneos o no deseados.
 - **Búsqueda de Asientos**: Los usuarios pueden buscar registros por **Categoría**, **Monto** o **Descripción**.
-
-## 📝 Definición del Problema
-El manejo inadecuado de las finanzas personales es común, especialmente entre los jóvenes, quienes a menudo no conocen cuánto ganan ni cuánto gastan al mes. Esta falta de control sobre sus finanzas genera problemas como la imposibilidad de ahorrar o invertir. La aplicación busca centralizar un histórico de los movimientos financieros para proporcionar claridad y fomentar un mejor manejo del dinero.
 
 ## 🚧 Limitaciones
 - Falta de conocimientos técnicos para desplegar base de datos postgres en la nube.
