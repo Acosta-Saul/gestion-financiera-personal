@@ -8,11 +8,11 @@ import { AsientoModule } from './Asiento/asiento.module';
   imports: [
   TypeOrmModule.forRoot({
       type: 'postgres',
-      host: process.env.DB_HOST,
-      port: parseInt(process.env.DB_PORT),
-      username: process.env.DB_USERNAME,
-      password: process.env.DB_PASSWORD,
-      database: process.env.DB_NAME,
+      host: dpg-d1grp2jipnbc73b4d2mg-a.oregon-postgres.render.com,
+      port: 5432,
+      username: finanza_z1pf_user,
+      password: Yi5vcUTP34RziAbwuUWEEHsCZIamh513,
+      database: finanza_z1pf,
       synchronize: true,
       ssl:
         process.env.DB_SSL === 'true' ? { rejectUnauthorized: false } : false,
